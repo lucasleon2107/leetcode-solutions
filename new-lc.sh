@@ -19,11 +19,7 @@ mkdir -p "$DIR"
 if [ ! -f "$FILE" ]; then
   cat <<EOF > "$FILE"
 // LeetCode $NUMBER: $SLUG
-// Paste your solution below
 
-fun main() {
-    // optional manual testing
-}
 EOF
 fi
 
